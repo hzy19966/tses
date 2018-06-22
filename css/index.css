@@ -1,0 +1,214 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.content{
+	position: absolute;
+	/*top: -200%;*/
+}
+
+.page{
+	position: relative;
+	/*相对定位*/
+}
+
+img{
+	position: absolute;
+}
+
+.page1{
+	background: #00ccff;
+}
+
+.page1-Building{
+	width: 100%;
+	height: 30%;
+	bottom: 0;
+}
+
+.page1-elements{
+	width: 100%;
+	height: 100%;
+	animation: zooming 2s linear infinite;
+}
+
+.page1-cloud{
+	width: 90%;
+	height: 90%;
+	animation: zooming 2s linear infinite;
+}
+
+@keyframes zooming{
+	0%{transform: scale(1);}
+	50%{transform: scale(0.9);}
+	100%{transform: scale(1);}
+}
+
+.page1-txt{
+	width: 60%;
+	left: 0;
+	right: 0;
+	margin: auto;
+	top: 15%;
+}
+
+.page1-flower{
+	top: 14%;
+    width: 20%;
+    left: 7%;
+    z-index: 1;
+    animation: rotate 2s linear infinite;
+}
+
+.page1-flower2{
+	left: 62%;
+    width: 23%;
+    top: 27%;
+    z-index: 1;
+    animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate{
+	0%{}
+	16%{transform: rotate(30deg);}
+	32%{transform: rotate(0deg);}
+	48%{transform: rotate(0deg);}
+	64%{transform: rotate(-30deg);}
+	80%{transform: rotate(0deg);}
+	100%{transform: rotate(0deg);}
+}
+
+.page1-flight{
+	left: 0;
+    right: 0;
+    margin: auto;
+    top: 50%;
+    width: 70%;
+    animation: flight 4s linear infinite;
+}
+
+@keyframes flight{
+	0%{transform: scale(1);}
+	50%{transform: scale(1.2);}
+	100%{transform: scale(1);}
+}
+
+.page1-stars{
+	width: 100%;
+}
+
+.page2{
+	background: aquamarine;
+}
+
+.page2-bg{
+	width: 100%;
+	height: 100%;
+}
+
+.page2-farm{
+	width: 70%;
+	right: 0;
+	top: 20%;
+	display: none;
+}
+
+.page2-it{
+	width: 70%;
+	right: 0;
+	top: 60%;
+	display: none;
+}
+
+.page2-star{
+	width: 100%;
+	height: 100%;
+}
+
+.page3{
+	background: blue;
+}
+.page3-bg{
+	width: 100%;
+	height: 100%;
+}
+.page3-bus{
+	width: 600px;
+	height: 450px;
+	bottom: 10%;
+	z-index: 1;
+}
+.page3-human{
+	width: 20%;
+	bottom: 12%;
+	right: 5%;
+	height: 250px;
+}
+.page3-et{
+	width: 40%;
+	display: none;
+	top: 30%;
+}
+.page3-lbg{
+	width: 30%;
+	display: none;
+}
+.page3-busStation{
+	width: 100%;
+	bottom: 0;
+}
+.page3-ma{
+	right:15%;
+	top: 30%;
+	z-index: 1;
+	display: none;
+}
+.page3-mw{
+	bottom: 0;
+	height: 60%;
+	right: 0;
+	display: none;
+	
+}
+.page3-ms{
+	top: 20%;
+	left: 30%;
+	width: 0px;
+}
+.page3-mwt{
+	bottom: 0;
+	left: 20%;
+	width: 0;
+}
+.page4{
+	background: pink;
+}
+.page4-bg{
+	width: 100%;
+	height: 100%;
+}
+.page4-light{
+	bottom: 0;
+	height: 1500px;
+}
+.page4-corner{
+	right: 0;
+	top: 15%;
+}
+.page4-click{
+	right: 20%;
+	top: 30%;
+	width: 600px;
+	
+}
+.page4-lightbg{
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+.page4-lighton{
+	bottom: 0;
+	height: 1500px;
+	display: none;
+}
